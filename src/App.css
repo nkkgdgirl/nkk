@@ -1,0 +1,74 @@
+/* .App{
+    width: 100vw;
+    height: 100vh;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', cursive;
+}
+
+.Graphsim{
+    width: 800px;
+    padding-left: 400px;
+    align-content: center;
+    justify-content: center;
+}
+
+.Navbar{
+    height: 100%;
+    width: 310px;
+    background: #ffffff;
+}
+
+.Graphtrain{
+    display: center;
+    width: 600px ;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.Graphtrain1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 225px ;
+    padding-top: 10px;
+    padding-left: auto;
+}
+
+.Graphtrain2{
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Trainimg {
+    width: 100%;
+    padding-top: 20px;
+    display: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items:center ;
+    
+  }
+  /* table {
+    border-collapse: collapse;
+    width: 77vw;
+  } */
+  
+  th, td {
+    border: 1px solid #cadbd273;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+  }
+  
+  th {
+    background-color: #00b6ad;
+  }
+  
+  td {
+    background-color: rgb(250, 255, 253);
+  }
